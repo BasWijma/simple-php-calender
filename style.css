@@ -1,0 +1,35 @@
+body {
+	margin: 40 auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+#container {
+	width: 500px;
+	margin: auto;
+}
+table {
+
+	width: 500px;
+}
+table td {
+	padding: 10px;
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+	text-align: center;
+}
+td.top { border-top: 1px solid grey; }
+td.right { border-right: 1px solid grey; }
+td.grey {
+	background-color: #DDD;
+}
+td.white {
+	background-color: #FFF;
+}
+
+td.today {
+	background-color: #4A9ACA;
+}
+
+td.holiday {
+	background-color: #CCE2F4;
+}
